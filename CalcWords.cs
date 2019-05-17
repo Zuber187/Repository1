@@ -100,7 +100,7 @@ namespace CalculateWords
                 {
                     foreach (var pair in sortWords)
                     {
-                        sw.WriteLine($"{pair.Key} {pair.Value}");
+                        sw.Write($"{pair.Key} {pair.Value} \n");
                     }
 
                     sw.Flush();
